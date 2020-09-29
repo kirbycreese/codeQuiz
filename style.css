@@ -1,0 +1,10 @@
+body {
+    background-image: url("codebackground.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+.grid-container {
+    grid-row-gap: 50px;
+  }
