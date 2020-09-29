@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -15,14 +16,27 @@
     <main>
         <div class="container">
             <div class="row">
-              <div class="col-sm">
-                One of two columns
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript Basics Quiz!</h5>
+                    <p class="card-text" id="startCard">Lets see what details about the fundamentals of JavaScript you remember from day 1.</p>
+                    <a href="#" class="btn btn-primary" id="startButton">Start Quiz!</a>
+                  </div>
+                </div>
               </div>
               <div class="col-lg">
                 One of two columns
               </div>
             </div>
+            <div class="row">
+                <div class="col-lg">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Restart Quiz</button>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">View High Scores</button>
+                </div>
+            </div>
           </div>
     </main>
+    <link rel="stylesheet" href ="script.js">
 </body>
 </html>
