@@ -21,3 +21,5 @@ document.querySelector("#startButton").addEventListener("click",start)
 
 //when start quiz button is clicked, text inside card changes to a countdown timer
 //when start quiz button is clicked, button goes away
+document.getElementById("questionsDisplay").innerHTML = "";
+document.getElementById("answersDisplay").innerHTML = "";
